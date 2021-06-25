@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href  = "mycss.css" rel="stylesheet">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+
+    <!--NAV-BAR-->
+        <nav class ="mynavbar" >
+            <a href="#homepage" class="headings">Home</a>
+            <a href="#About" class = "headings">About</a>
+            <a href ="#Projects" class = "headings">Projects</a>
+            <a href="#contactme" class = "headings">Contact</a>
+        </nav>
+
+
+
+    <!--HOMEPAGE-->
+    <a name ="homepage"></a>
+    <div class = "homepage" >
+        
+        <img src="31748-9-coder-transparent.png" alt="" class ="homephoto">
+
+        <div class="hello" >
+            Hello,<br>
+            I am  Nishant <br>
+            A &ltDeveloper&gt
+        </div>
+    </div>
+
+
+
+
+    <!--About-->
+    <a name ="About"></a>
+    <div class= "About">
+
+        <h1 class  = "headings" id="ah">About</h1>
+        
+        <h4 id = "ah">
+            Working on Languages like java , python , c++ ,etc. and technologies like Machine Learning , Web-Development (MERN stack).<br>
+            But i am always looking for new and better technologies for enhancement of my skills.
+        </h4 >
+
+        <div class = "eduTable">
+             <h1 id = "ah">Education</h1>
+
+            <table >
+                <thead>
+                    <tr>
+                        <th>Senior Secondary Education</th>
+                        <th>Bachelor of Tech.</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>GBPS(2017), New Delhi</td>
+                        <td>ADGITM(2017-2021) ,Delhi</td>
+                    </tr>
+                </tbody>
+            </table>  
+
+        </div>
+    </div>
+
+
+
+<a name = "Projects"></a>     
+<div class="projects">
+    <div class="headings" id = "ph">
+        Projects
+    </div>
+    <a href="https://nishantsharmaarc7.github.io/new-port/" target="_blank">
+        <img src="Screenshot (46).png" width="40%" class="projectphoto1">
+    </a>
+</div>
+
+
+
+
+<a name = "contactme"></a>   
+<div class="contactme">
+        <!--Section: Contact v.2-->
+<section class="mb-4">
+
+    <!--Section heading-->
+    <h2 class="h1-responsive font-weight-bold text-center my-4">Contact me</h2>
+    <!--Section description-->
+    <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within
+        a matter of hours to help you.</p>
+
+    <div class="row">
+
+        <!--Grid column-->
+        <div class="col-md-9 mb-md-0 mb-5">
+            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" id="name" name="name" class="form-control">
+                            <label for="name" class="">Your name</label>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" id="email" name="email" class="form-control">
+                            <label for="email" class="">Your email</label>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="md-form mb-0">
+                            <input type="text" id="subject" name="subject" class="form-control">
+                            <label for="subject" class="">Subject</label>
+                        </div>
+                    </div>
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-12">
+
+                        <div class="md-form">
+                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                            <label for="message">Your message</label>
+                        </div>
+
+                    </div>
+                </div>
+                <!--Grid row-->
+
+            </form>
+
+            <div class="text-center text-md-left">
+                <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+            </div>
+            <div class="status"></div>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-md-3 text-center">
+            <ul class="list-unstyled mb-0">
+                <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                    <p>New Delhi , India</p>
+                </li>
+
+                <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                    <p>7703857584</p>
+                </li>
+
+                <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                    <p>nishantsharmaarc7@gmail.com</p>
+                </li>
+            </ul>
+        </div>
+        <!--Grid column-->
+
+    </div>
+
+</section>
+<!--Section: Contact v.2-->
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
